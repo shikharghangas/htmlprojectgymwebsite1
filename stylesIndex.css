@@ -1,0 +1,305 @@
+body{
+    background-color: #f4f4f4;
+}
+nav{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+}
+
+nav ul{
+    padding-top: 4px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.main-header{
+    background-color: black;
+    text-align: center;  
+    padding:10px;
+    display: flex;
+    
+}
+#wolffitnesshalf{
+    height: 40px;
+    width: 300px;
+
+}
+#fullscreeenhomepage{
+    height: 800px;
+    width: 1424px;
+    
+   
+}
+
+
+
+img.wolffitnesshalf{
+    float: left;
+
+}
+.btn{
+    background-color: rgb(253, 253, 253);
+    padding: 5px 5px 5px 5px;
+    color: black;
+    margin-left: 250px;
+    border-radius: 7px;
+    
+   
+}
+
+.square {
+    width: 1424px;
+    height: 180px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    line-height:5;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif   ;
+  }
+  .inner-shape {
+    position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px; /* Adjust the width of the inner shape */
+  height: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  }
+
+
+  .triangle {
+    width: 0;
+	height: 0;
+	border-left: 712px solid transparent;
+	border-right: 712px solid transparent;
+	border-top: 50px solid #cc1e1e;
+  }
+
+.header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.header a{
+    text-align: center;
+    margin-left: 0px;
+}
+.btn1{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 50px;
+    border-radius: 7px;
+}
+#redtick{
+    background-color: #f4f4f4;
+    height:20px;
+    width:20px; 
+}
+
+
+.container{
+    display:flex;
+    
+}
+
+.flex-container{
+    display: flex;
+    width:100%;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.btn2{
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 220px;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    background-color: grey;
+    padding-bottom: 100px;
+    margin-bottom: 10px;
+}
+aside{
+    
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+#trainingprogram{
+    height: 600px;
+    width: 680px;
+}
+
+.commentsContainer{
+    position:relative;
+    width:1424px;
+    height:800px;
+    border:2px #f4f4f4;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    position:relative;
+    border:1px gray;
+    border-radius: 10px;
+}
+
+
+
+
+.circle {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    background-color: #9f2929;
+    border-radius: 50%;
+    
+}
+
+
+
+#circle1{
+    top: -110px;
+    left:-50px;
+
+}
+#circle2{
+    top: -10px;
+    left:300px;
+
+}
+#circle3{
+    top: 40px;
+    left:650px;
+
+}
+#circle4{
+    top: 190px;
+    left:1000px;
+
+}
+
+
+
+#box1{
+    width: 300px;
+    height: 400px;
+    background: grey;
+    top:100px;
+    left:0px;
+    font-size: medium;
+    text-align: left;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+#box2{
+    width: 300px;
+    height: 350px;
+    background: grey;
+    top:-200px;
+    left:350px;
+    font-size: medium;
+    text-align: left;
+    line-height: 1.6;
+}
+#box3{
+    width: 300px;
+    height: 450px;
+    background: grey;
+    top:-500px;
+    left:700px;
+    font-size: medium;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#box4{
+    width: 300px;
+    height: 520px;
+    background: grey;
+    top:-800px;
+    left:1050px;
+    font-size:medium;
+    text-align: left;
+    line-height: 1.6;
+}
+#wolf{
+            
+    width: 400px;
+    height: 400px;
+    float: centre;
+}
+.commentsContainer p{
+    font-size: 17px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li a{
+    color:aliceblue;
+    padding-left: 40px;
+    
+}
+
+nav a{
+    text-decoration: solid;
+    
+}
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin-top: 160px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-logo {
+    width: 170px; /* Adjust the width of the footer logo */
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 20px; /* Adjust the width of the social media icons */
+    height: auto;
+}
+
+
+
+

@@ -1,0 +1,123 @@
+body {
+    background-color: #f4f4f4;
+    
+}
+
+nav {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul {
+    padding-top: 4px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+li a {
+    color: aliceblue;
+    padding-left: 40px;
+}
+
+nav a {
+    text-decoration: none; /* Corrected property value */
+}
+
+.main-header {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+}
+
+#wolffitnesshalf {
+    height: 40px;
+    width: 300px;
+}
+
+.btn {
+    background-color: rgb(253, 253, 253);
+    padding: 5px 5px 5px 5px;
+    color: black;
+    margin-left: 250px;
+    border-radius: 7px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-group button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-logo {
+    width: 160px; /* Adjust the width of the footer logo */
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 20px; /* Adjust the width of the social media icons */
+    height: auto;
+}
